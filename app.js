@@ -1,11 +1,14 @@
-const ul = document.querySelector("#theList");
+const movies = document.querySelector("#movieList");
 
-const data = [];
+let movieData;
+let shipData;
+let characterData;
+let planetData;
 
 const createLI = (text) => {
     const newLI = document.createElement("li");
     newLI.appendChild(document.createTextNode(text));
-    ul.appendChild(newLI);
+    movies.appendChild(newLI);
 }
 
 const callSWAPI = function () {
@@ -13,9 +16,9 @@ const callSWAPI = function () {
     .then(response => response.json())
     .then(apiData => {
         apiData.results.forEach(element => {
-            data.push(element);
             createLI(element.title);
         });
+        movieData = apiData;
     })
     .catch(error => console.log(error));
 }
