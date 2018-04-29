@@ -1,0 +1,23 @@
+{
+  "name": "starwarsviewer",
+  "version": "1.0.0",
+  "description": "Make use of SWAPI (https://swapi.co/about) to grab info about all things Star Wars.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abenson229/StarWarsViewer.git"
+  },
+  "keywords": [
+    "SWAPI",
+    "Javascript"
+  ],
+  "author": "Adrian Benson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abenson229/StarWarsViewer/issues"
+  },
+  "homepage": "https://github.com/abenson229/StarWarsViewer#readme"
+}
