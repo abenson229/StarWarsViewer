@@ -1,0 +1,31 @@
+* {
+    font-family: "Orbitron", sans-serif;
+}
+
+body {
+    background-color: #2b2e33;
+}
+
+h2 {
+    font-size: 40px;
+    color: #404d60;
+}
+
+li {
+    padding: 3px;
+    font-size: 20px;
+    color: #404d60;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    border: 2px solid black;
+    padding: 5px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
