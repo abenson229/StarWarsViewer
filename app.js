@@ -1,5 +1,3 @@
-
-
 const movies = document.querySelector("#movieList");
 const ships = document.querySelector("#shipList");
 const characters = document.querySelector("#characterList");
@@ -9,6 +7,8 @@ let shipData;
 let characterData;
 let planetData;
 const SWAPI_URL = "https://swapi.co/api"
+
+InfoDisplay.logMe();
 
 const createLI = (list, text) => {
     const newLI = document.createElement("li");
